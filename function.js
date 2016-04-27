@@ -9,6 +9,7 @@ function print(message){
 for (var i = 0; i<students.length; i++) {
 	student = students[i];
 	message += '<h1>' + student.name + '</h1>';
+	message += '<h2>' + student.track + '</h2>';
 }
 
 print(message); //this message is the same as the first line since this is a global scope
